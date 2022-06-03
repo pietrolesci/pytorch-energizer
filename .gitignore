@@ -3,6 +3,7 @@
 .AppleDouble
 .LSOverride
 */lightning_logs/
+*/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

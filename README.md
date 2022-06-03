@@ -113,7 +113,7 @@ active_learning_loop = ActiveLearningLoop(
     ),
     query_size: int = 2,             # number of instance to label at each round
     reset_weights: bool = True,      # should we reset the model weights after each iteration?
-    label_epoch_frequency: int = 3,  # how many training epochs on the labelled data
+    n_epochs_between_labelling: int = 3,  # how many training epochs on the labelled data
 )
 
 trainer = Trainer(max_epochs=10)

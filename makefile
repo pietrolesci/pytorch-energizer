@@ -4,10 +4,10 @@ sources = energizer
 test: format lint unittest
 
 format:
-	isort $(sources) tests examples
-	black $(sources) tests examples
-	nbqa isort examples
-	nbqa black examples
+	isort $(sources) tests
+	black $(sources) tests
+	nbqa isort notebooks
+	nbqa black notebooks
 
 lint:
 	flake8 $(sources) tests
